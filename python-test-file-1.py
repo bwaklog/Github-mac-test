@@ -11,7 +11,7 @@ import random
 
 fact = '''
 def factor():
-    a = random.choice(range(1000, 1000000))
+    a = random.choice(range(10**100, 10**1000))
     c = 0
     for i in range(1, a/2):
         if i % a == 0:
